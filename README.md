@@ -1,4 +1,6 @@
 # Personal Website
+
+## Install
 `npm install`
 
 `npm install @owickstrom/the-monospace-web`
@@ -7,12 +9,10 @@
 
 `npx vite`
 
-<hr>
-
-To build:
+## Build:
 
 `npm run build`
 
-To preview:
+## Preview:
 
 `npm run preview`
