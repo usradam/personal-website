@@ -1,5 +1,3 @@
-/* Theme overrides for @owickstrom/the-monospace-web */
-
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #FAFAF9;
