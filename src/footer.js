@@ -4,8 +4,8 @@ const markdown = `
 <table>
     <tr>
         <td style="text-align:center;">
-            <a style="text-decoration: none;" href="/index.html">Home</a> •
-            <a style="text-decoration: none;" href="/resume.html">Resume</a> •
+            <a id="home-tab" style="text-decoration: none;" href="/index.html">Home</a> •
+            <a id="resume-tab" style="text-decoration: none;" href="/resume.html">Resume</a> •
             <!-- Add new pages here e.g.:
             <a style="text-decoration: none;" href="/projects.html">Projects</a> •
             <a style="text-decoration: none;" href="/about.html">About</a> •

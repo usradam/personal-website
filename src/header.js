@@ -7,8 +7,8 @@ const markdown = `
         <h1 style="margin: 0;">Adam Graham</h1>
     </td>
     <td style="text-align: center; vertical-align: middle">
-    <a href="http://github.com/usradam" target="_blank">GitHub</a>
-    <a href="http://linkedin.com/in/adamgra" target="_blank">LinkedIn</a> 
+    <a id="github" href="http://github.com/usradam" target="_blank">GitHub</a>
+    <a id="linkedin" href="http://linkedin.com/in/adamgra" target="_blank">LinkedIn</a> 
     </td>
     <td style="vertical-align: middle; text-align: center">
     <span onclick="toggleTheme()" class="theme-toggle" title="Toggle theme">

@@ -1,18 +1,26 @@
 # Personal Website
 
 ## Install
-`npm install`
+```
+npm install
 
-`npm install @owickstrom/the-monospace-web`
+npm install @owickstrom/the-monospace-web
 
-`npm install marked`
+npm install marked
+```
 
-`npx vite`
+```
+npx vite
+```
 
-## Build:
+## Build
 
-`npm run build`
+```
+npm run build
+```
 
 ## Preview:
 
-`npm run preview`
+```
+npm run preview
+```
