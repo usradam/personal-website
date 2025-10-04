@@ -4,12 +4,6 @@ const markdown = `
 <table>
     <tr>
         <td style="text-align:center;">
-            <a id="home-tab" style="text-decoration: none;" href="/index.html">Home</a> •
-            <a id="resume-tab" style="text-decoration: none;" href="/resume.html">Resume</a> •
-            <!-- Add new pages here e.g.:
-            <a style="text-decoration: none;" href="/projects.html">Projects</a> •
-            <a style="text-decoration: none;" href="/about.html">About</a> •
-            -->
             <span id="browser-info"></span> •
             <span id="current-time"></span> •
             <span id="window-dimensions"></span>
@@ -32,7 +26,7 @@ updateTime();
 function getBrowser() {
   const ua = navigator.userAgent;
   if (ua.includes('Firefox')) return 'Firefox';
-  if (ua.includes('Chrome') && !ua.includes('Edg')) return 'Chromium';
+  if (ua.includes('Chrome') && !ua.includes('Edg')) return 'Chrome';
   if (ua.includes('Safari') && !ua.includes('Chrome')) return 'Safari';
   if (ua.includes('Edg')) return 'Edge';
   if (ua.includes('Opera') || ua.includes('OPR')) return 'Opera';
