@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adam Graham | Portfolio</title>
 
+    <link rel="preload" href="/headshot.webp" as="image" type="image/webp">
     <link rel="prefetch" href="/resume.html" as="document">
-
     <link rel="stylesheet" href="/node_modules/@owickstrom/the-monospace-web/src/reset.css">
     <link rel="stylesheet" href="/node_modules/@owickstrom/the-monospace-web/src/index.css">
     <link rel="stylesheet" href="/src/theme.css">
@@ -19,7 +19,12 @@
     <script type="module" src="/src/header.js"></script>
 
     <div>
-    <img src="/headshot.webp" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 5px; float: left; margin-right: 15px; margin-bottom: 10px;">
+    <img 
+      src="/headshot.webp" 
+      alt="Profile Picture" 
+      fetchpriority="high"
+      style="width: 200px; height: 200px; border-radius: 5px; float: left; margin-right: 15px; margin-bottom: 10px;"
+    >
 
     I am a senior at the University of Hawaii at Mānoa pursuing a B.S. in Computer Science and a B.A. in Spanish & Latin American Studies.
   
