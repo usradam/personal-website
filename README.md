@@ -3,10 +3,6 @@
 ## Install
 ```
 npm install
-
-npm install @owickstrom/the-monospace-web
-
-npm install marked
 ```
 
 ## Run
