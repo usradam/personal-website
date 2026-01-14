@@ -2,7 +2,7 @@
 
 ## Install
 ```
-npm install
+pnpm install
 ```
 
 ## Run
@@ -12,10 +12,10 @@ npx vite
 
 ## Build
 ```
-npm run build
+pnpm run build
 ```
 
 ## Preview
 ```
-npm run preview
+pnpm run preview
 ```
